@@ -1,6 +1,6 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
-import  settings
+import settings
 
 
 logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
@@ -21,9 +21,9 @@ def talk_to_me(bot, update):
 
 
 def main():
-    mybot = Updater(settings.API_KEY, request_kwargs=settings.PROXY)
+    mybot = Updater(settings.API_KEY, request_kwargs=settings.PROXY, use_context=True)
 
-    logging.info('Bot started')
+    logging.info('Bot start')
 
     dp = mybot.dispatcher
     dp.add_handler(CommandHandler("start", greet_user))
