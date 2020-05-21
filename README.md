@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Settings
 --------
 Создайте файл settings.py и добавьте туда следующие настройки:
-'''
+```
 API_KEY = "API_ключ_от_BotFather"
 
 PROXY = "Данные_прокси"
@@ -26,9 +26,10 @@ PROXY = "Данные_прокси"
 KEY = "API_ключ_для_СПП"
 
 CSE = "Идентификатор поисковой системы"
-'''
-Подробнее о создании СПП и получении ключа:
-https://developers.google.com/custom-search/v1/overview
+```
+
+Подробнее о создании СПП и получении ключа [здесь]
+(https://developers.google.com/custom-search/v1/overview)
 
 Launch
 ------
