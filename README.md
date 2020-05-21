@@ -28,8 +28,7 @@ KEY = "API_ключ_для_СПП"
 CSE = "Идентификатор поисковой системы"
 ```
 
-Подробнее о создании СПП и получении ключа [здесь]
-(https://developers.google.com/custom-search/v1/overview)
+Подробнее о создании СПП и получении ключа [здесь](https://developers.google.com/custom-search/v1/overview)
 
 Launch
 ------
