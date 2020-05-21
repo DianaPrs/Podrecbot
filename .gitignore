@@ -1,3 +1,7 @@
 *.log
-
+*.pyc
 settings.py
+__pycache__/
+/__pycache__
+env/
+bot.code-workspace
