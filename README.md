@@ -5,7 +5,7 @@
 - Искать можно в Apple Podcasts, Google Podcasts и Яндексе.
 - Бот выдает до 5 первых результатов ссылкой. 
 
-<a href="https://i.ibb.co/7CZyS1K/screenshot.jpg" target="blank"><img src="https://i.ibb.co/pwMX1Ld/screenshot.jpg" alt="screenshot" border="0"></a>
+<a href="https://i.ibb.co/7CZyS1K/screenshot.jpg" target="_blank"><img src="https://i.ibb.co/pwMX1Ld/screenshot.jpg" alt="screenshot" border="0"></a>
 
 Installing
 ----------
