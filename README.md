@@ -5,6 +5,8 @@
 - Искать можно в Apple Podcasts, Google Podcasts и Яндексе.
 - Бот выдает до 5 первых результатов ссылкой. 
 
+<a href="https://ibb.co/pwMX1Ld"><img src="https://i.ibb.co/pwMX1Ld/screenshot.jpg" alt="screenshot" border="0"></a>
+
 Installing
 ----------
 Для загрузки репозитория выполните в консоли:
