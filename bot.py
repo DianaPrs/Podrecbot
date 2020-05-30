@@ -1,4 +1,4 @@
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters,  RegexHandler, CallbackQueryHandler
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, RegexHandler, CallbackQueryHandler
 from telegram import ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup
 from search import search_title
 from goo_search import google_search
@@ -17,8 +17,8 @@ logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
 
 def greet_user(update, context):
     text = f'Привет! Это поисковой бот канала\
-            <a href="http://t.me/podrec">*Рекомендации подкастов*</a>.\
-            Для поиска подкаста используйте кобанду /search' 
+            <a href="http://t.me/podrec">Рекомендации подкастов</a>.\
+            Для поиска подкаста используйте команду /search' 
     my_keyboard = ReplyKeyboardMarkup([["Старт", "Поиск"]])
     update.message.reply_text(text, reply_markup=my_keyboard, 
                                 parse_mode=telegram.ParseMode.HTML,
@@ -28,7 +28,7 @@ def greet_user(update, context):
 def show_inline(update, user_data):
     inlinekeyboard = [[InlineKeyboardButton("Apple Podcasts", callback_data='1'),
                     InlineKeyboardButton("Google Podcasts", callback_data='0')],
-                    [InlineKeyboardButton("Yandex Podcasts", callback_data='2')]]
+                    [InlineKeyboardButton("Yandex.Подкасты", callback_data='2')]]
     reply_markup = InlineKeyboardMarkup(inlinekeyboard)
     update.message.reply_text('Где будем искать?', reply_markup=reply_markup)
 
