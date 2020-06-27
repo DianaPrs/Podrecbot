@@ -83,7 +83,7 @@ def inline_button_pressed(update, context):
 
 
 def main():
-    mybot = Updater(settings.API_KEY, use_context=True, request_kwargs=settings.PROXY)
+    mybot = Updater(settings.API_KEY, use_context=True)
 
     logging.info('Bot start')
 
